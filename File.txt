@@ -1,0 +1,11 @@
+=============================
+GIT WORKSHOP | MERGE & REBASE
+=============================
+
+Modify this file to create new commits in your branch. 
+Keep adding new lines to force a new commit.
+
+Added from master
+Added from setup1
+Added from setup1
+Added from setup1
