@@ -45,7 +45,8 @@ This is the ideal history we want to achieve.
 5. Create a pull request to merge the merge-main and merge-feature-2 branch.
 6. Review and merge your changes.
 7. Pull the changes on merge-main.
-8. Check out your commit history.
+8. Check out the commit history of your merge-main branch.
+
 9. Go back into your merge-main branch.
 10. Create a new branch named merge-feature-4.
 3. Create some commits on your merge-feature-3 and merge-feature-4 branch.
@@ -53,13 +54,47 @@ This is the ideal history we want to achieve.
 12. Create a pull request to merge the merge-main and merge-feature-3 and merge-feature-4 branch.
 13. Review and merge your changes.
 14. Pull the changes on merge-main.
-15. Check out your commit history.
+15. Check out the commit history of your merge-main branch.
 
 Do you notice the difference in the commit history when you're working with a single branch at a time and working
-with multiple cranch at the same time?
-
+with multiple branch at the same time?
 
 ## Activity Three: Using Rebase
+
+How do we keep an organize history while working with multiple branches? The answer is we rebase!
+
+We're going to follow similar steps that we took during activity two except we will rebase our branch before merging it into our main branch 
+
+1. Go into your rebase-main branch.
+2. This time create two new branches: rebase-feature-1 and rebase-feature-2.
+3. Create some commits on your rebase-feature-1 branch.
+  * Your branch is currently based on the most recent commit of master so rebasing will not do anything.
+4. Push your rebase-feature-1 branch into your remote repo.
+5. Create a pull request to merge the rebase-main and rebase-feature-1 branch.
+6. Review and merge your changes.
+7. Pull the changes on rebase-main.
+8. Check out the commit history of your rebase-main branch.
+
+So far everything should look very similar to activity 2, but that is about to change.
+
+9. Go back into your rebase-main branch.
+10. Create a new branch named rebase-feature-3.
+11. Create some commits on your rebase-feature-2 and rebase-feature-3 branch.
+12. Rebase your rebase-feature-2 branch onto rebase-main.
+13. Push your rebase-feature-2 branch into your remote repo.
+14. Create a pull request to merge the rebase-main and rebase-feature-2.
+15. Review and merge your changes.
+16. Pull the changes on rebase-main.
+17. Before we rebase rebase-feature-3, check out the commit history of rebase-feature-3.
+18. Rebase your rebase-feature-3 branch onto master.
+    * Check the commit history or rebase-feature-3, does it look different?
+19. Push your rebase-feature-3 branch into your remote repo.
+20. Create a pull request to merge the rebase-main and rebase-feature-3.
+21. Review and merge your changes.
+22. Pull the changes on rebase-main.
+23. Check out the commit history of your rebase-main branch.
+
+Compare the history of commits on merge-main vs. rebase-main, what do you notice?
 
 ## Git Command Cheat Sheet
 
