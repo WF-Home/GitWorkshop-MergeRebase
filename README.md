@@ -46,7 +46,6 @@ This is the ideal history we want to achieve.
 6. Review and merge your changes.
 7. Pull the changes on merge-main.
 8. Check out the commit history of your merge-main branch.
-
 9. Go back into your merge-main branch.
 10. Create a new branch named merge-feature-4.
 3. Create some commits on your merge-feature-3 and merge-feature-4 branch.
@@ -56,8 +55,8 @@ This is the ideal history we want to achieve.
 14. Pull the changes on merge-main.
 15. Check out the commit history of your merge-main branch.
 
-Do you notice the difference in the commit history when you're working with a single branch at a time and working
-with multiple branch at the same time?
+_Do you notice the difference in the commit history when you're working with a single branch at a time and working
+with multiple branch at the same time?_
 
 ## Activity Three: Using Rebase
 
@@ -68,15 +67,13 @@ We're going to follow similar steps that we took during activity two except we w
 1. Go into your rebase-main branch.
 2. This time create two new branches: rebase-feature-1 and rebase-feature-2.
 3. Create some commits on your rebase-feature-1 branch.
-  * Your branch is currently based on the most recent commit of master so rebasing will not do anything.
+_Your branch is currently based on the most recent commit of master so rebasing will not do anything._
 4. Push your rebase-feature-1 branch into your remote repo.
 5. Create a pull request to merge the rebase-main and rebase-feature-1 branch.
 6. Review and merge your changes.
 7. Pull the changes on rebase-main.
 8. Check out the commit history of your rebase-main branch.
-
-So far everything should look very similar to activity 2, but that is about to change.
-
+_So far everything should look very similar to activity 2, but that is about to change._
 9. Go back into your rebase-main branch.
 10. Create a new branch named rebase-feature-3.
 11. Create some commits on your rebase-feature-2 and rebase-feature-3 branch.
@@ -87,14 +84,14 @@ So far everything should look very similar to activity 2, but that is about to c
 16. Pull the changes on rebase-main.
 17. Before we rebase rebase-feature-3, check out the commit history of rebase-feature-3.
 18. Rebase your rebase-feature-3 branch onto master.
-    * Check the commit history or rebase-feature-3, does it look different?
+_Check the commit history or rebase-feature-3, does it look different?_
 19. Push your rebase-feature-3 branch into your remote repo.
 20. Create a pull request to merge the rebase-main and rebase-feature-3.
 21. Review and merge your changes.
 22. Pull the changes on rebase-main.
 23. Check out the commit history of your rebase-main branch.
 
-Compare the history of commits on merge-main vs. rebase-main, what do you notice?
+_Compare the history of commits on merge-main vs. rebase-main, what do you notice?_
 
 ## Git Command Cheat Sheet
 
@@ -103,6 +100,8 @@ Compare the history of commits on merge-main vs. rebase-main, what do you notice
 |```git branch [branch name]```|Creates a new branch.|
 |```git checkout [branch name]```|Switches to the branch.|
 |```git checkout -b [branch name]```|Creates a new branch and switches to it.|
+|```git add .```|Adds all changes in the repo to the staging area.|
+|```git commit -m [log message]```|Commits all the changes in the staging area.|
 |```git pull [branch name]```|Updates your local repo based on your remote repo.|
 |```git push -u origin [branch name]```|Pushes your local branch for the first time into the remote repo.|
 |```git rebase master [branch name]```| Moves the starting point of your branch to the most recent commit on master.|
