@@ -25,7 +25,7 @@ git log --graph --oneline
 ```
 This is the ideal history we want to achieve.
 
-_**NOTE: If you do not know the commands you need, I created a little git command cheat sheet at the bottom. Good luck!
+_**NOTE: If you do not know the commands you need, I created a little git command cheat sheet at the bottom. Good luck!**_
 
 ## Activity One: Merging a Single Branch
 
