@@ -34,6 +34,7 @@ _**NOTE: If you do not know the commands you need, I created a little git comman
 3. Create some commits on your merge-feature-1 branch.
 4. Push your merge-feature-1 branch into your remote repo.
 5. Create a pull request to merge the merge-main and merge-feature-1 branch.
+ You can learn how to create a pull request from [here](https://help.github.com/en/articles/creating-a-pull-request)
 6. Review and merge your changes.
 7. Pull the changes on merge-main.
 8. Check out your commit history.
